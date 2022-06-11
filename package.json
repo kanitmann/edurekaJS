@@ -1,0 +1,19 @@
+{
+  "name": "edurekajs",
+  "version": "1.0.0",
+  "description": "save your ideas w/o switching from your terminal",
+  "main": "index.js",
+  "bin": {
+    "edureka": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kanitmann",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "yargs": "^17.5.1"
+  }
+}
