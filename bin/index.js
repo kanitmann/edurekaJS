@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import chalk from "chalk";
+import boxen from "boxen";
 import yargs from 'yargs';
 import figlet from "figlet";
 import fs from "fs";
@@ -149,7 +150,11 @@ if (argv[0] == "-m") {
     for (let j = 3; j < process.argv.length; j++) {
         body = body + process.argv[j] + " ";
     }
-    console.log(chalk.green("\nMemo: ") + chalk.yellow(body));
+    // console.log(chalk.green("\nMemo: ") + chalk.yellow(body));
+    {
+        console.log("\n" + boxen(chalk.yellow("\n" + chalk.green("\nMemo: ") + chalk.yellow(body) + "\n"
+        ), { padding: 1, borderColor: 'green', dimBorder: true }) + "\n");
+    };
     createPath();
     createMemo(memo_num, body);
 }
