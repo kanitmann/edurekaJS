@@ -3,6 +3,11 @@ import chalk from "chalk";
 import yargs from 'yargs';
 import figlet from "figlet";
 import fs from "fs";
+import CliFrames from 'cli-frames';
+
+var today = new Date();
+var memo_num = "memo" + (today.getMonth() + 1) + today.getDate() + today.getHours() + today.getMinutes();
+var body = "";
 
 console.log(
     chalk.yellow(
@@ -18,27 +23,81 @@ function createPath() {
     var path = "./Memos";
     fs.access(path, (error) => {
         if (error) {
-          fs.mkdir(path, (error) => {
-            if (error) {
-              console.log(error);
-            } else {
-              console.log("Created 'Memo' folder");
-            }
-          });
-        } else {
-          console.log("");
+            fs.mkdir(path, (error) => {
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log(chalk.blueBright("- Created 'Memo' folder for future use 😊"));
+                }
+            });
         }
-      });
+    });
 }
 
-createPath();
+function createMemo(memo_num, body) {
+    var path = "./Memos/" + memo_num + ".txt";
+    fs.access(path, (error) => {
+        if (error) {
+            fs.writeFile(path, body, (error) => {
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log(chalk.blueBright("- Memo Created 📕"));
+                }
+            });
+        }
+    });
+}
 
 const argv = process.argv.slice(2);
 
+// Animation Function
+function animation1() {
+    const frames = [
+        "╔════╤╤╤╤════╗\n" +
+        "║    │││ \\   ║\n" +
+        "║    │││  O  ║\n" +
+        "║    OOO     ║",
+
+        "╔════╤╤╤╤════╗\n" +
+        "║    ││││    ║\n" +
+        "║    ││││    ║\n" +
+        "║    OOOO    ║",
+
+        "╔════╤╤╤╤════╗\n" +
+        "║   / │││    ║\n" +
+        "║  O  │││    ║\n" +
+        "║     OOO    ║",
+
+        "╔════╤╤╤╤════╗\n" +
+        "║    ││││    ║\n" +
+        "║    ││││    ║\n" +
+        "║    OOOO    ║"
+    ];
+
+
+    new CliFrames({
+        frames: ["Thinking time: 3", "Thinking time: 2", "Thinking time: 1"]
+        , autostart: {
+            delay: 1000
+            , end: function (err, data) {
+                // Create another animation
+                var animation = new CliFrames();
+                animation.load(frames);
+                animation.start({
+                    repeat: true
+                    , delay: 250
+                });
+            }
+        }
+    });
+}
+
+
 y.command({
-    usage: 'Usage: edureka <command> [options]',
-    command: 'command <> []',
-    describe: 'sample description. \n',
+    usage: 'Usage: edureka <flag> [options]',
+    command: '<command> [options]',
+    describe: 'Edureka flag usage \n',
     builder: {
         title: {
             describe: ' ',
@@ -57,8 +116,8 @@ y.command({
 })
 
 y.command({
-    command: '-update',
-    describe: 'sample description\n',
+    command: '-m <Thought>',
+    describe: 'Save your thoughts real-time\n',
     builder: {
         title: {
             describe: '   ',
@@ -73,7 +132,7 @@ y.command({
 
 y.command({
     command: '-animation',
-    describe: 'Side fun animation in CLI (TBA)\n',
+    describe: 'Calm Animation to let you put your thought together\n',
     builder: {
         title: {
             describe: '   ',
@@ -86,20 +145,16 @@ y.command({
     }
 })
 
-// if (argv[0] == "-i") {
-//     if (argv[1] == "-update") {
-//         console.log("Update Working");
-//         pathName = argv[2];
-//         distName = argv[3];
-//     }
-//     else {
-//         pathName = argv[1];
-//         distName = argv[2];
-//     }
-
-// }
-// else if (argv[0] == "-animation") {
-//     animation1();
-// }
+if (argv[0] == "-m") {
+    for (let j = 3; j < process.argv.length; j++) {
+        body = body + process.argv[j] + " ";
+    }
+    console.log(chalk.green("\nMemo: ") + chalk.yellow(body));
+    createPath();
+    createMemo(memo_num, body);
+}
+else if (argv[0] == "-animation") {
+    animation1();
+}
 
 y.parse(process.argv.slice(2))
