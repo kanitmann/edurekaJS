@@ -82,7 +82,6 @@ function animation1() {
         , autostart: {
             delay: 1000
             , end: function (err, data) {
-                // Create another animation
                 var animation = new CliFrames();
                 animation.load(frames);
                 animation.start({
