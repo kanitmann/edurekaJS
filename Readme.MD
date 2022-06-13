@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kanitmann/thoeryJS">
+  <a href="https://github.com/kanitmann/theoryJS">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -24,14 +24,14 @@
   <p align="center">
     Description Sample (TBA)
     <br />
-    <a href="https://github.com/kanitmann/thoeryJS"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kanitmann/theoryJS"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kanitmann/thoeryJS">View Demo</a>
+    <a href="https://github.com/kanitmann/theoryJS">View Demo</a>
     ·
-    <a href="https://github.com/kanitmann/thoeryJS/issues">Report Bug</a>
+    <a href="https://github.com/kanitmann/theoryJS/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kanitmann/thoeryJS/issues">Request Feature</a>
+    <a href="https://github.com/kanitmann/theoryJS/issues">Request Feature</a>
   </p>
 </p>
 
@@ -91,7 +91,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kanitmann/thoeryJS.git
+   git clone https://github.com/kanitmann/theoryJS.git
    ```
 2. Install NPM packages
    ```sh
@@ -110,7 +110,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/kanitmann/thoeryJS/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/kanitmann/theoryJS/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -143,16 +143,16 @@ Distributed under the SATA License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/kanitmann/thoeryJS.svg?style=for-the-badge
-[contributors-url]: https://github.com/kanitmann/thoeryJS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kanitmann/thoeryJS.svg?style=for-the-badge
-[forks-url]: https://github.com/kanitmann/thoeryJS/network/members
-[stars-shield]: https://img.shields.io/github/stars/kanitmann/thoeryJS.svg?style=for-the-badge
-[stars-url]: https://github.com/kanitmann/thoeryJS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kanitmann/thoeryJS.svg?style=for-the-badge
-[issues-url]: https://github.com/kanitmann/thoeryJS/issues
+[contributors-shield]: https://img.shields.io/github/contributors/kanitmann/theoryJS.svg?style=for-the-badge
+[contributors-url]: https://github.com/kanitmann/theoryJS/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kanitmann/theoryJS.svg?style=for-the-badge
+[forks-url]: https://github.com/kanitmann/theoryJS/network/members
+[stars-shield]: https://img.shields.io/github/stars/kanitmann/theoryJS.svg?style=for-the-badge
+[stars-url]: https://github.com/kanitmann/theoryJS/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kanitmann/theoryJS.svg?style=for-the-badge
+[issues-url]: https://github.com/kanitmann/theoryJS/issues
 [license-shield]: https://img.shields.io/badge/license-SATA-blue?style=for-the-badge&logo=appveyor
-[license-url]: https://github.com/kanitmann/thoeryJS/blob/master/LICENSE.txt
-[made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/thoeryJS?style=for-the-badge
-[made-with-url]: https://shields.io/github/languages/top/kanitmann/thoeryJS.svg?style-for-the-badge
+[license-url]: https://github.com/kanitmann/theoryJS/blob/master/LICENSE.txt
+[made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/theoryJS?style=for-the-badge
+[made-with-url]: https://shields.io/github/languages/top/kanitmann/theoryJS.svg?style-for-the-badge
 [product-screenshot]: (images/screenshot.png)
