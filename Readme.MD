@@ -7,8 +7,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 </span>
 
@@ -149,14 +149,14 @@ Distributed under the SATA License. See `LICENSE` for more information.
 
 [contributors-shield]: https://img.shields.io/github/contributors/kanitmann/theoryJS.svg?style=for-the-badge
 [contributors-url]: https://github.com/kanitmann/theoryJS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kanitmann/theoryJS.svg?style=for-the-badge
-[forks-url]: https://github.com/kanitmann/theoryJS/network/members
+[forks-shield]: https://img.shields.io/github/forks/dyte-submissions/theoryJS.svg?style=for-the-badge
+[forks-url]: https://github.com/dyte-submissions/theoryJS/network/members
 [stars-shield]: https://img.shields.io/github/stars/kanitmann/theoryJS.svg?style=for-the-badge
 [stars-url]: https://github.com/kanitmann/theoryJS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kanitmann/theoryJS.svg?style=for-the-badge
-[issues-url]: https://github.com/kanitmann/theoryJS/issues
-[license-shield]: https://img.shields.io/badge/license-SATA-blue?style=for-the-badge&logo=appveyor
+[license-shield]: https://img.shields.io/github/license/kanitmann/theoryJS?style=for-the-badge&logo=appveyor
 [license-url]: https://github.com/kanitmann/theoryJS/blob/master/LICENSE.txt
 [made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/theoryJS?style=for-the-badge
 [made-with-url]: https://shields.io/github/languages/top/kanitmann/theoryJS.svg?style-for-the-badge
-[product-screenshot]: (images/screenshot.png)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/kanitmann
+[product-screenshot]: images/Screenshot.png
