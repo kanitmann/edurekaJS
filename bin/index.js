@@ -12,7 +12,7 @@ var body = "";
 
 console.log(
     chalk.yellow(
-        figlet.textSync('Edureka', { horizontalLayout: 'full' })
+        figlet.textSync('Theory-js', { horizontalLayout: 'full' })
     )
 );
 
@@ -95,9 +95,9 @@ function animation1() {
 
 
 y.command({
-    usage: 'Usage: edureka <flag> [options]',
+    usage: 'Usage: theory <flag> [options]',
     command: '<command> [options]',
-    describe: 'Edureka flag usage \n',
+    describe: 'theory flag usage \n',
     builder: {
         title: {
             describe: ' ',
