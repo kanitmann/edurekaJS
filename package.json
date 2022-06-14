@@ -4,7 +4,7 @@
   "description": "save your ideas w/o switching from your terminal",
   "main": "index.js",
   "bin": {
-    "edureka": "./bin/index.js"
+    "theory": "./bin/index.js"
   },
   "type": "module",
   "scripts": {
