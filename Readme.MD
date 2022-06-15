@@ -1,6 +1,4 @@
 #
-
-
 <span style="display:block;text-align:center">
 
 [![Made With][made-with-shield]][made-with-url]
@@ -69,9 +67,7 @@
 
 ### Built With
 
-- []()
-- []()
-- []()
+- [NodeJS](https://nodejs.org/en/)
 
 <!-- GETTING STARTED -->
 
@@ -107,7 +103,12 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After installing the package, you can easily open the help menu by typing `theoryJS --help` in the terminal.
+
+- Running the help menu on terminal
+   ```sh
+   theory --help
+   ```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -133,15 +134,13 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the SATA License. See `LICENSE` for more information.
+Distributed under the GNU GPL3.0 License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
 
 - [Kanit Mann](https://github.com/kanitmann/)
-- []()
-- []()
 
 > Made with 💙 by Kanit Mann
 
