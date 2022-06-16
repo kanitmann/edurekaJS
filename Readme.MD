@@ -21,7 +21,7 @@
   <h3 align="center">Theory-JS</h3>
 
   <p align="center">
-    Description Sample (TBA)
+    TheoryJS is a CLI tool to help you quickly save your thoughts directly from your terminal.
     <br />
     <a href="https://github.com/kanitmann/theoryJS"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,7 +83,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
-
+[![TheoryJS][product-installation]](https://github.com/kanitmann/theoryJS)
 ### Installation
 
 1. Clone the repo
@@ -98,7 +98,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install -g .
    ```
-[![TheoryJS][product-screenshot]]
+[![TheoryJS][product-screenshot]](https://github.com/kanitmann/theoryJS)
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -111,7 +111,7 @@ After installing the package, you can easily open the help menu by typing `theor
    ```
 [![TheoryJS][product-screenshot]](https://github.com/kanitmann/theoryJS)
 
-- Writing memory to a file
+- Writing memo to a file
    ```sh
    theory -m "This is a test"
    ```
@@ -175,3 +175,4 @@ Distributed under the GNU GPL3.0 License. See `LICENSE` for more information.
 [product-screenshot]: img/Theoryjs_help.png
 [product-screenshot2]: img/Theoryjs_memo.png
 [product-screenshot3]: img/MemoFolder.png
+[product-installation]: img/Global_Installation.png
