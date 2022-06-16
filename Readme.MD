@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kanitmann/theoryJS">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./img/Thinkjs.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Theory-JS</h3>
@@ -63,7 +63,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![TheoryJS][product-screenshot]](https://github.com/kanitmann/theoryJS)
 
 ### Built With
 
@@ -98,7 +98,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install -g .
    ```
-
+[![TheoryJS][product-screenshot]]
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -109,8 +109,19 @@ After installing the package, you can easily open the help menu by typing `theor
    ```sh
    theory --help
    ```
+[![TheoryJS][product-screenshot]](https://github.com/kanitmann/theoryJS)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+- Writing memory to a file
+   ```sh
+   theory -m "This is a test"
+   ```
+[![TheoryJS][product-screenshot2]](https://github.com/kanitmann/theoryJS)
+
+
+A 'memo folder' is created once you run `theoryJS -m` for the first time. 
+
+[![TheoryJS][product-screenshot3]](https://github.com/kanitmann/theoryJS)
+
 
 <!-- ROADMAP -->
 
@@ -161,4 +172,6 @@ Distributed under the GNU GPL3.0 License. See `LICENSE` for more information.
 [made-with-url]: https://shields.io/github/languages/top/kanitmann/theoryJS.svg?style-for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kanitmann
-[product-screenshot]: images/Screenshot.png
+[product-screenshot]: img/Theoryjs_help.png
+[product-screenshot2]: img/Theoryjs_memo.png
+[product-screenshot3]: img/MemoFolder.png
