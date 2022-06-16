@@ -83,7 +83,6 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
-[![TheoryJS][product-installation]](https://github.com/kanitmann/theoryJS)
 ### Installation
 
 1. Clone the repo
@@ -98,7 +97,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install -g .
    ```
-[![TheoryJS][product-screenshot]](https://github.com/kanitmann/theoryJS)
+[![TheoryJS][product-installation]](https://github.com/kanitmann/theoryJS)
 <!-- USAGE EXAMPLES -->
 
 ## Usage
